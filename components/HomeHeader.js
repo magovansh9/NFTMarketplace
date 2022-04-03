@@ -45,7 +45,7 @@ const HomeHeader = ({ onSearch }) => {
             color: COLORS.white,
           }}
         >
-          Hello, Vansh! 👋
+          Hello! 👋
         </Text>
         <Text
           style={{

@@ -44,7 +44,7 @@ const DetailsHeader = ({ data, navigation }) => {
 };
 
 const Details = ({ route, navigation }) => {
-  const [data] = NFTData;
+  const { data } = route.params;
 
   return (
     <SafeAreaView style={{ flex: 1 }}>
